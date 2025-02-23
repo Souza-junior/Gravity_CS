@@ -16,7 +16,7 @@ dependencies:
   - black
   - rich
   - ipywidgets
-  # For building latex documents
+  # For building LaTeX documents
   - make
   - tectonic
   - latexdiff
@@ -33,3 +33,8 @@ dependencies:
   - pygmt
   # Pyproj
   - pyproj
+  # SimPEG
+  - simpeg
+  # discretize
+  - discretize
+
