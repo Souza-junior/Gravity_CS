@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>corrego_seco.shp</name>
+	<open>1</open>
+	<Schema name="corrego_seco" id="S_corrego_seco_">
+		<SimpleField type="long" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="falseColor9">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[corrego_seco/id_2]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor90">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor91</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor91">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[corrego_seco/id_2]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl16</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin14">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl16">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>corrego_seco</name>
+		<Placemark>
+			<styleUrl>#falseColor90</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_corrego_seco_">
+					<SimpleData name="id_2">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-49.99137132662469,-16.38967343363783,0 -49.99683334188128,-16.39047551684566,0 -50.00016828645645,-16.39222667773389,0 -50.00163816375929,-16.39284305014773,0 -50.00414848754395,-16.39576648093901,0 -50.00581955790801,-16.39821194779497,0 -50.00755326565709,-16.40214731799098,0 -50.00838027045672,-16.4050627499875,0 -50.00857288104178,-16.40858457634415,0 -50.00852191063532,-16.41077102762688,0 -50.00835127325804,-16.41162631912194,0 -50.00834612221746,-16.41264290973297,0 -50.00817521078806,-16.41355170556307,0 -50.00798802118774,-16.41767078568657,0 -50.00741113445981,-16.42210905771315,0 -50.00804814615856,-16.42767669030851,0 -50.00881573479427,-16.42936575462354,0 -50.00880434013347,-16.43161295131469,0 -50.00829371346106,-16.43391129454869,0 -50.00734525684766,-16.4350839400602,0 -50.00723002734041,-16.43593948955325,0 -50.0057776868216,-16.43807284785077,0 -50.00221771433082,-16.44035669641094,0 -49.99706000216154,-16.44065313273203,0 -49.99451134235103,-16.44031989630597,0 -49.99058301878039,-16.43874936411893,0 -49.98576438249902,-16.43781652628565,0 -49.98244073517814,-16.43726537544481,0 -49.97927895814996,-16.43757104882635,0 -49.97672561793291,-16.43814717015294,0 -49.97013800188466,-16.43625562064801,0 -49.96599388586424,-16.43361347517918,0 -49.96504818671713,-16.43160236242027,0 -49.96355844077195,-16.4302573767144,0 -49.9613518600815,-16.42557812918486,0 -49.95954294534432,-16.42171678898023,0 -49.95900482020155,-16.41866431855201,0 -49.95758090817414,-16.41539343108016,0 -49.95605851815564,-16.40980794099607,0 -49.95591647727634,-16.40525928166226,0 -49.95642882839163,-16.40273369827204,0 -49.95733764379718,-16.39861829372535,0 -49.95979839591731,-16.39451056471953,0 -49.96219454761189,-16.39211465735127,0 -49.96364046638888,-16.39121219391155,0 -49.96486240429269,-16.39073666188145,0 -49.96696975514768,-16.39053300103703,0 -49.96879856102356,-16.39059548133116,0 -49.97035332628349,-16.39006804244584,0 -49.97340208220737,-16.390029439979,0 -49.97512087444857,-16.3899308110393,0 -49.97633607333001,-16.39073931465268,0 -49.97782925643975,-16.3913886458111,0 -49.98182002510154,-16.39140800441232,0 -49.98677335441653,-16.39018791578284,0 -49.9883160077818,-16.38981395160741,0 -49.99137132662469,-16.38967343363783,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>P1</name>
+		<LookAt>
+			<gx:TimeStamp><when>2022-06-28T12:34:26Z</when>
+</gx:TimeStamp>
+			<gx:ViewerOptions>
+				<gx:option name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option enabled="0" name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-49.98639017484794</longitude>
+			<latitude>-16.44133599113659</latitude>
+			<altitude>0</altitude>
+			<heading>4.648960452165384</heading>
+			<tilt>17.11493442396126</tilt>
+			<range>563.3913736171178</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin14</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-49.98520218720676,-16.44146181019383,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>P2</name>
+		<LookAt>
+			<gx:TimeStamp><when>2022-06-28T12:34:26Z</when>
+</gx:TimeStamp>
+			<gx:ViewerOptions>
+				<gx:option name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option enabled="0" name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-49.99236028360713</longitude>
+			<latitude>-16.4390618501595</latitude>
+			<altitude>0</altitude>
+			<heading>4.650848941098927</heading>
+			<tilt>11.64561923390483</tilt>
+			<range>968.2309514293058</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin14</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-49.99109662691752,-16.43904071753715,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>P3</name>
+		<LookAt>
+			<gx:TimeStamp><when>2022-06-28T12:34:26Z</when>
+</gx:TimeStamp>
+			<gx:ViewerOptions>
+				<gx:option name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option enabled="0" name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-50.00411366875426</longitude>
+			<latitude>-16.44480829503134</latitude>
+			<altitude>0</altitude>
+			<heading>-2.667800476926314</heading>
+			<tilt>0</tilt>
+			<range>2440.683883031333</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin14</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-50.0046966762372,-16.44444766760621,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
